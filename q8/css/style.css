@@ -1,0 +1,293 @@
+  @charset "UTF-8";
+
+/* 回答はここに書いてね */
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q8_c {
+  background: #00bcd4;
+  color: #fff;
+}
+
+.q8_e{
+  background: #ff4981;
+  color: #fff;
+}
+
+.q8_d {
+  background: #e5e5e5;
+  color: #fff;
+}
+
+.q8_s {
+  background: #fff;
+}
+
+.style {
+  margin-left: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.style_shadow {
+  box-shadow : 0 1px rgba(0,0,0,.12),
+  0 1px 4px rgba(0,0,0,.12);
+}
+
+.q8--btn .style:first-of-type {
+  margin-left: 0;
+}
+
+.small-type {
+  padding: 0 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.middle-type {
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.large-type {
+  padding: 0 25px;
+  border-radius: 7px;
+  font-size: 24px;
+  height: 38px;
+  line-height: 38px;
+}
+
+.form_ex {
+  width: 700px;
+  margin: 0 auto;
+  background: #EBF1F2;
+  padding: 20px;
+}
+
+.form_ex_title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.title_text {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  background: #EBF1F2;
+  z-index: 2;
+  margin-right: 10px;
+}
+
+.form_ex_title:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #CCCCCC;
+  z-index: 1;
+}
+
+.main__right {
+  float: right;
+  width: 380px;
+}
+
+.main__left {
+  float: left;
+  width: 300px;
+}
+
+.text_span {
+  color: red;
+}
+
+.main__right_m {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  background: #fff;
+  resize: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+.main__right_m:focus {
+  outline: none;
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.main__right_top {
+  margin-bottom: 20px;
+}
+
+.main__right_top li {
+  margin-bottom: 20px;
+}
+
+.main__right_top_text {
+  width: 100px;
+  float: left;
+  line-height: 25px;
+  text-align: right;
+}
+
+.input_q8 {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.input_q8:focus {
+  outline: none;
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.top_text_right {
+  float: right;
+  width: 180px;
+}
+
+.text_right_sex {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.input-none {
+  display: none;
+}
+
+.q8__radio {
+  position: relative;
+  padding: 4px;
+}
+
+.q8__radio:before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: -50%;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #D2D2D2;
+}
+
+.input-none:checked +.q8__radio:after{
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: -41%;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background: #00BCD4;
+  /*border: 1px solid #D2D2D2;*/
+}
+
+.select_q8 {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.select_check {
+  position: relative;
+}
+
+.select_check:after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  position: absolute;
+  top: 4px;
+  left: 89%;
+  transform: rotate(46deg);
+}
+
+.q8___checkbox {
+  position: relative;
+  padding-left: 24px;
+  margin-left: 55px;
+}
+
+
+.q8___checkbox:before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -9px;
+}
+
+.input-none:checked +.q8___checkbox:after {
+  content: '';
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  transform: rotate(45deg);
+}
+
+.main__left_bottom {
+  text-align: right;
+}
+
+.main_left_bottom_sub {
+  border-radius: 5px;
+  background: #00BCD4;
+  color: #fff;
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 26px;
+  border: none;
+  outline: none;
+}
+
+.main_left_bottom_sub:active {
+  background: #fff;
+  color: #00BCD4;
+}
+
+
+
+
+
+
+
+/* 回答はここに書いてね */

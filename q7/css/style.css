@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.table__table {
+  font-size: 16px;
+  width: 225px;
+}
+
+.q7--float__box {
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.q7--float__box:first-child{
+  margin-left: 0;
+}
+
+.q7_2_table {
+  display: table;
+  /*border-spacing: 50px 0;*/
+}
+
+.q7_2_table_cell {
+  vertical-align: middle;
+  padding-left: 50px;
+  display: table-cell;
+}
+
+.q7_2_table_cell:first-child {
+  padding-left: 0;
+}
+/*
+.inner__q7- {
+  vertical-align: middle;
+}*/
+
+
+.inner__q7 {
+  font-size: 0;
+}
+
+.inner__q7_box {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+
+.inner__q7_box:first-child {
+  margin-left: 0;
+}
+
+
+
+.q7_4_flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7_4_flex_item {
+  /*margin: px;*/
+  box-sizing: border-box;
+}
+
+.q7_5_table {
+  display: table;
+}
+
+.q7_5_table_c {
+  vertical-align: top;
+  display: table-cell;
+  padding-right: 50px;
+}
+
+.q7_5_table_c:last-child {
+  padding-right: 0;
+}
+
+.q7_5_inline {
+  display: inline-box;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.q7_5_inline2 {/*
+  margin: 100%  ;
+  margin-right: -200px;
+  padding-right: 250px;*/
+  display: inline-block;
+}
+
+/* 回答はここに書いてね */

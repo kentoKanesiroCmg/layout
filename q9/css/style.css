@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* 回答はここに書いてね */
+.q9__box {
+  margin: 0 auto;
+  cursor: pointer;
+  width: 500px;
+  height: 333px;
+  overflow: hidden;
+  position: relative;
+}
+
+.q9__box_img {
+  transition: 0.5s;
+}
+
+.q9__box:hover .q9__box_img {
+  transform: scale(1.5);
+}
+
+.q9__box:hover .hidden_class {
+  bottom: 0;
+}
+
+.hidden_class {
+  height: 100%;
+  width: 100%;
+  bottom: -100%;
+  color: #000;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
+  position: absolute;
+  transition: 0.5s;
+  /*animation: hidden_ 0.5s ease;*/
+}
+/*
+@keyframes hidden_ {
+  0% {
+    top: 50px;
+  }
+  100% {
+    top: 0;
+  }
+}*/
+
+.hidden_class_text {  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: #FFF;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.q9_loading {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #ECF1F2;
+  border-radius: 50%;
+  border-top-color: #76D0ED;
+  margin: 0 auto;
+  animation: loading 1.1s infinite linear;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* 回答はここに書いてね */
